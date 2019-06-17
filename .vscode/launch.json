@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FirstSteps",
+            "request": "launch",
+            "mainClass": "FirstSteps",
+            "projectName": "Workspace_f2b4aace"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - helloworld",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "helloworld",
+            "args": ""
+        }
+    ]
+}
