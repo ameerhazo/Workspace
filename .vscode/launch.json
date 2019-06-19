@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - nsideddicerun",
+            "request": "launch",
+            "mainClass": "nsideddice.nsideddicerun",
+            "projectName": "Workspace_cb1e26ff"
+        }
+    ]
+}
