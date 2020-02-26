@@ -2,10 +2,27 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "CodeLens (Launch) - nsideddicerun",
             "request": "launch",
             "mainClass": "nsideddice.nsideddicerun",
             "projectName": "Workspace_cb1e26ff"
+=======
+            "name": "CodeLens (Launch) - FirstSteps",
+            "request": "launch",
+            "mainClass": "FirstSteps",
+            "projectName": "Workspace_f2b4aace"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - helloworld",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "helloworld",
+            "args": ""
+>>>>>>> 9053e3fdd9a30eb695df123e5393f01d5ee51aa8
         }
     ]
 }
