@@ -22,7 +22,7 @@ public class Monster
          return movement;
      }
 
-     public int getHelath()
+     public int getHealth()
      {
          return health;
      }
@@ -55,5 +55,19 @@ public class Monster
      }
 
      public Monster()
+     {
+
+     }
+
+     public Monster(int newHealth)
+     {
+         health = newHealth;
+     }
+
+     public Monster(int newHealth, int newAttack)
+     {
+         this(newHealth);
+         attack = newAttack;   
+     }
 
 }
